@@ -1,0 +1,172 @@
+2018-04-16 17:01:48,260  INFO Application:48 - Starting Application on DLC0009GPWPC2LD with PID 31852 (C:\wnn\workspacegit\backbone-springboot\spring-boot-log\target\classes started by nannan.c.wang in C:\wnn\workspacegit\backbone-springboot\spring-boot-log)
+2018-04-16 17:01:48,262  INFO Application:593 - No active profile set, falling back to default profiles: default
+2018-04-16 17:01:48,328  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74e52ef6: startup date [Mon Apr 16 17:01:48 CST 2018]; root of context hierarchy
+2018-04-16 17:01:48,520  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-04-16 17:01:49,880  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2018-04-16 17:01:49,899  INFO StandardService:179 - Starting service [Tomcat]
+2018-04-16 17:01:49,901  INFO StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-16 17:01:50,262  WARN StandardJarScanner:181 - Failed to scan [file:/C:/Users/nannan.c.wang/.m2/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-api.jar] from classloader hierarchy
+java.io.FileNotFoundException: C:\Users\nannan.c.wang\.m2\repository\com\sun\xml\bind\jaxb-core\2.2.11\jaxb-api.jar (The system cannot find the file specified)
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_111]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[?:1.8.0_111]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[?:1.8.0_111]
+	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[?:1.8.0_111]
+	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[?:1.8.0_111]
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-8.5.23.jar:8.5.23]
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-8.5.23.jar:8.5.23]
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101) [tomcat-embed-jasper-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
+2018-04-16 17:01:50,268  WARN StandardJarScanner:181 - Failed to scan [file:/C:/Users/nannan.c.wang/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-core.jar] from classloader hierarchy
+java.io.FileNotFoundException: C:\Users\nannan.c.wang\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.11\jaxb-core.jar (The system cannot find the file specified)
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_111]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[?:1.8.0_111]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[?:1.8.0_111]
+	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[?:1.8.0_111]
+	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[?:1.8.0_111]
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-8.5.23.jar:8.5.23]
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-8.5.23.jar:8.5.23]
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101) [tomcat-embed-jasper-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
+2018-04-16 17:01:50,274  INFO TldScanner:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-04-16 17:01:50,284  INFO [/]:179 - Initializing Spring embedded WebApplicationContext
+2018-04-16 17:01:50,285  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1960 ms
+2018-04-16 17:01:50,456  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-16 17:01:50,459  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-16 17:01:50,459  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-16 17:01:50,459  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-16 17:01:50,459  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-16 17:01:50,742  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74e52ef6: startup date [Mon Apr 16 17:01:48 CST 2018]; root of context hierarchy
+2018-04-16 17:01:50,809  INFO RequestMappingHandlerMapping:543 - Mapped "{[/]}" onto public java.lang.String com.lxzl.controller.HomePageController.index(com.lxzl.bean.BaseInfo)
+2018-04-16 17:01:50,811  INFO RequestMappingHandlerMapping:543 - Mapped "{[/login/]}" onto public java.lang.String com.lxzl.controller.Login.login()
+2018-04-16 17:01:50,814  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-16 17:01:50,814  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-16 17:01:50,850  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-16 17:01:50,850  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-16 17:01:50,893  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-16 17:01:51,035  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-04-16 17:01:51,060  INFO Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-04-16 17:01:51,070  INFO Http11NioProtocol:179 - Starting ProtocolHandler ["http-nio-8080"]
+2018-04-16 17:01:51,092  INFO NioSelectorPool:179 - Using a shared selector for servlet write/read
+2018-04-16 17:01:51,136  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2018-04-16 17:01:51,140  INFO Application:57 - Started Application in 3.123 seconds (JVM running for 4.232)
+2018-04-16 17:02:59,424  INFO Application:48 - Starting Application on DLC0009GPWPC2LD with PID 29556 (C:\wnn\workspacegit\backbone-springboot\spring-boot-log\target\classes started by nannan.c.wang in C:\wnn\workspacegit\backbone-springboot\spring-boot-log)
+2018-04-16 17:02:59,425  INFO Application:593 - No active profile set, falling back to default profiles: default
+2018-04-16 17:02:59,480  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@233795b6: startup date [Mon Apr 16 17:02:59 CST 2018]; root of context hierarchy
+2018-04-16 17:02:59,677  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-04-16 17:03:00,868  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2018-04-16 17:03:00,883  INFO StandardService:179 - Starting service [Tomcat]
+2018-04-16 17:03:00,885  INFO StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-16 17:03:01,224  INFO TldScanner:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-04-16 17:03:01,231  INFO [/]:179 - Initializing Spring embedded WebApplicationContext
+2018-04-16 17:03:01,231  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1754 ms
+2018-04-16 17:03:01,441  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-16 17:03:01,446  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-16 17:03:01,446  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-16 17:03:01,446  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-16 17:03:01,446  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-16 17:03:01,807  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@233795b6: startup date [Mon Apr 16 17:02:59 CST 2018]; root of context hierarchy
+2018-04-16 17:03:01,877  INFO RequestMappingHandlerMapping:543 - Mapped "{[/]}" onto public java.lang.String com.lxzl.controller.HomePageController.index(com.lxzl.bean.BaseInfo)
+2018-04-16 17:03:01,879  INFO RequestMappingHandlerMapping:543 - Mapped "{[/login/]}" onto public java.lang.String com.lxzl.controller.Login.login()
+2018-04-16 17:03:01,884  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-16 17:03:01,884  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-16 17:03:01,935  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-16 17:03:01,936  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-16 17:03:01,988  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-16 17:03:02,113  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-04-16 17:03:02,140  INFO Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-04-16 17:03:02,154  INFO Http11NioProtocol:179 - Starting ProtocolHandler ["http-nio-8080"]
+2018-04-16 17:03:02,180  INFO NioSelectorPool:179 - Using a shared selector for servlet write/read
+2018-04-16 17:03:02,222  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2018-04-16 17:03:02,227  INFO Application:57 - Started Application in 13.048 seconds (JVM running for 14.133)
+2018-04-16 17:03:18,718  INFO [/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-16 17:03:18,718  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-16 17:03:18,747  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2018-04-16 17:03:18,789  WARN DefaultHandlerExceptionResolver:384 - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.lxzl.controller.HomePageController.index(com.lxzl.bean.BaseInfo)
+2018-04-16 17:03:23,603  WARN DefaultHandlerExceptionResolver:384 - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.lxzl.controller.HomePageController.index(com.lxzl.bean.BaseInfo)
+2018-04-16 17:04:18,822  INFO Application:48 - Starting Application on DLC0009GPWPC2LD with PID 31912 (C:\wnn\workspacegit\backbone-springboot\spring-boot-log\target\classes started by nannan.c.wang in C:\wnn\workspacegit\backbone-springboot\spring-boot-log)
+2018-04-16 17:04:18,823  INFO Application:593 - No active profile set, falling back to default profiles: default
+2018-04-16 17:04:18,876  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@233795b6: startup date [Mon Apr 16 17:04:18 CST 2018]; root of context hierarchy
+2018-04-16 17:04:19,068  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-04-16 17:04:20,179  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2018-04-16 17:04:20,190  INFO StandardService:179 - Starting service [Tomcat]
+2018-04-16 17:04:20,191  INFO StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-16 17:04:20,514  INFO TldScanner:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-04-16 17:04:20,526  INFO [/]:179 - Initializing Spring embedded WebApplicationContext
+2018-04-16 17:04:20,527  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1654 ms
+2018-04-16 17:04:20,780  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-16 17:04:20,785  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-16 17:04:20,785  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-16 17:04:20,785  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-16 17:04:20,786  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-16 17:04:21,219  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@233795b6: startup date [Mon Apr 16 17:04:18 CST 2018]; root of context hierarchy
+2018-04-16 17:04:21,284  INFO RequestMappingHandlerMapping:543 - Mapped "{[/]}" onto public java.lang.String com.lxzl.controller.HomePageController.index(com.lxzl.bean.BaseInfo)
+2018-04-16 17:04:21,286  INFO RequestMappingHandlerMapping:543 - Mapped "{[/login/]}" onto public java.lang.String com.lxzl.controller.Login.login()
+2018-04-16 17:04:21,289  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-16 17:04:21,290  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-16 17:04:21,326  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-16 17:04:21,327  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-16 17:04:21,362  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-16 17:04:21,488  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-04-16 17:04:21,519  INFO Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-04-16 17:04:21,532  INFO Http11NioProtocol:179 - Starting ProtocolHandler ["http-nio-8080"]
+2018-04-16 17:04:21,557  INFO NioSelectorPool:179 - Using a shared selector for servlet write/read
+2018-04-16 17:04:21,588  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2018-04-16 17:04:21,592  INFO Application:57 - Started Application in 3.016 seconds (JVM running for 4.192)
+2018-04-16 17:04:23,766  INFO [/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-16 17:04:23,767  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-16 17:04:23,792  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-04-16 17:11:54,169  INFO Application:48 - Starting Application on DLC0009GPWPC2LD with PID 18108 (C:\wnn\workspacegit\backbone-springboot\spring-boot-log\target\classes started by nannan.c.wang in C:\wnn\workspacegit\backbone-springboot\spring-boot-log)
+2018-04-16 17:11:54,170  INFO Application:593 - No active profile set, falling back to default profiles: default
+2018-04-16 17:11:54,227  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@233795b6: startup date [Mon Apr 16 17:11:54 CST 2018]; root of context hierarchy
+2018-04-16 17:11:54,421  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-04-16 17:12:05,660  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2018-04-16 17:12:05,670  INFO StandardService:179 - Starting service [Tomcat]
+2018-04-16 17:12:05,672  INFO StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-04-16 17:12:05,997  INFO TldScanner:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-04-16 17:12:06,004  INFO [/]:179 - Initializing Spring embedded WebApplicationContext
+2018-04-16 17:12:06,004  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 11780 ms
+2018-04-16 17:12:06,182  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-16 17:12:06,186  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-16 17:12:06,186  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-16 17:12:06,187  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-16 17:12:06,187  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-16 17:12:06,187  INFO FilterRegistrationBean:258 - Mapping filter: 'simpleCORSFilter' to: [/*]
+2018-04-16 17:12:06,492  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@233795b6: startup date [Mon Apr 16 17:11:54 CST 2018]; root of context hierarchy
+2018-04-16 17:12:06,560  INFO RequestMappingHandlerMapping:543 - Mapped "{[/]}" onto public java.lang.String com.lxzl.controller.HomePageController.index(com.lxzl.bean.BaseInfo)
+2018-04-16 17:12:06,562  INFO RequestMappingHandlerMapping:543 - Mapped "{[/login/]}" onto public java.lang.String com.lxzl.controller.Login.login()
+2018-04-16 17:12:06,565  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-16 17:12:06,566  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-16 17:12:06,603  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-16 17:12:06,604  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-16 17:12:06,643  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-16 17:12:06,768  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-04-16 17:12:06,793  INFO Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-04-16 17:12:06,802  INFO Http11NioProtocol:179 - Starting ProtocolHandler ["http-nio-8080"]
+2018-04-16 17:12:06,823  INFO NioSelectorPool:179 - Using a shared selector for servlet write/read
+2018-04-16 17:12:06,857  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2018-04-16 17:12:06,861  INFO Application:57 - Started Application in 12.926 seconds (JVM running for 13.984)
+2018-04-16 17:12:09,311  INFO [/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-16 17:12:09,311  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-16 17:12:09,342  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms

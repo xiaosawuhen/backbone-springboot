@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="../js/backbone.js"></script>
+<script type="text/javascript" src="../js/underscore.js"></script>
+
+<link href="../css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+	<table id="js-id-gists" class="table">
+		<thead>
+			<th>description</th>
+			<th>URL</th>
+			<th>created_at</th>
+		</thead>
+		<tbody></tbody>
+	</table>
+	<script type="text/javascript">
+		var Gist = Backbone.Model.extend({
+			url : 'http://localhost:8080/',
+			parse : function(response) {
+				return (response);
+			}
+		})
+		var gist = new Gist();
+		gist.set("name", "test");
+		gist.set('title', 'test001');
+		gist.save();
+
+		gist.on('change', function(model) {
+			var tbody = document.getElementById('js-id-gists').children[1];
+
+			var tr = document.getElementById(model.id);
+			if (!tr) {
+				tr = document.createElement('tr');
+				tr.setAttribute('id', model.id);
+			}
+			tr.innerHTML = '<td>' + model.get("name") + '</td>'
+					+ '<td>' + model.get("name") + '</td>'
+					+ '<td>' + model.get("name")+ '</td>';
+			tbody.appendChild(tr);
+		});
+		gist.fetch();
+	</script>
+</body>
+</html>

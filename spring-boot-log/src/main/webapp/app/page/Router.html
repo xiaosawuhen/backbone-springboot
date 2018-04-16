@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <a href="#/posts/120">Post 120</a>
+  <div id="search_container">
+  </div>
+  
+  <script src="../js/jquery-2.1.4.min.js"></script>
+  <script src="../js/underscore.js"></script>
+  <script src="../js/backbone.js"></script>
+  
+  <script type="text/template" id="search_template">
+<ul>
+<% _.each(labels, function(name) { %>
+    <% if(name != "label2") {%>
+    <li><%= name %></li>
+    <% } %>
+<% }); %>
+</ul>
+	</script>
+  
+  <script type="text/javascript">
+  $(function(){
+	  var SearchView = Backbone.View.extend({
+		    el: "#search_container",
+
+		    initialize: function(){
+		    },
+
+		    render: function(context) {
+		        //使用underscore这个库，来编译模板
+		        var template = _.template($("#search_template").html());
+		        //加载模板到对应的el属性中
+		        $(this.el).html(template(context));
+		    },
+
+		});
+
+	  var searchView = new SearchView();
+		
+	  var AppRouter = Backbone.Router.extend({
+
+		    routes: {
+		        "posts/:id" : "getPost",
+		        //下面对应的链接为<a href="#/download/user/images/hey.gif">download gif</a>
+		        "download/*path": "downloadFile",
+		        //下面对应的链接为<a href="#/dashboard/graph">Load Route/Action View</a>
+		        ":route/:action": "loadView",
+		        "*actions" : "defaultRoute"
+		    },
+
+		    getPost: function(id) {
+// 		        alert("getPost");
+		        var labels = ['label1', 'label2', 'label3'];
+		    	searchView.render({labels: labels});
+		    },
+
+		    defaultRoute : function(actions){
+// 		        alert("defaultRoute");
+		    },
+
+		    downloadFile: function( path ){
+// 		        alert("downloadFile");
+		        alert(path); // user/images/hey.gif
+		    },
+
+		    loadView: function( route, action ){
+// 		        alert("loadView");
+		        alert(route + "_" + action); // dashboard_graph
+		    }
+
+		});
+
+		var app_router = new AppRouter;
+		Backbone.history.start();
+  });
+  </script>
+  </body>
+</html>
